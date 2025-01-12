@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2f62f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.generator-container {
+    background-color: rgba(170, 170, 255, 0.475);
+    width: fit-content;
+    padding: 3% 5%;
+    font-size: 1.5rem;
+}
+
+.generator-container h3 {
+    min-width: 500px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+}
+
+.result-container #result {
+    width: 90%;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    padding: 3% 3%;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result-container #clipboard {
+    width: 10%;
+    background-color: yellow;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.result-container #clipboard:hover {
+    background-color: rgb(200, 200, 0);
+}
+
+.password-length {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.password-length input {
+    width: 25%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5% 0;
+    gap: 5%;
+    height: 4rem;
+    align-content: space-between;
+}
+
+.option {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option input {
+    height: 18px;
+    width: 18px;
+}
+
+#generate-password {
+    color: white;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 3%;
+    border: none;
+    font-size: 1.5rem;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+#generate-password:hover {
+    background-color: rgb(104, 0, 201);
+}
