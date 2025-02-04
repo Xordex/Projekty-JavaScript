@@ -1,0 +1,1 @@
+const FormValidator = new FormValidator();
