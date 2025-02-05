@@ -1,1 +1,1 @@
-const FormValidator = new FormValidator();
+const FormValidatorr = new FormValidator();
