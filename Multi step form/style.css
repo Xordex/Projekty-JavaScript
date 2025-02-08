@@ -38,6 +38,14 @@ input {
     box-shadow: 0 3px 3px 3px rgba(170, 170, 170, 0.325);
 }
 
+.invalid-input {
+    border: 1px solid red;
+}
+
+.invalid-input~label {
+    color: red;
+}
+
 .container .buttons-container {
     margin: 20px 0 0;
 }
